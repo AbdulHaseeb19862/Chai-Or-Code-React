@@ -64,6 +64,7 @@ function App() {
               defaultChecked={allowedNumber}
               id=""
               type="checkbox"
+              
               onChange={() => {
                 setNumber((prev) => !prev);
               }}
